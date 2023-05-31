@@ -1,0 +1,57 @@
+
+body {
+    background-color: #f2f2f2; /* Color de fondo */
+    background-image: url("images/fondo.jpg"); /* Ruta a la imagen de fondo */
+    background-size: cover; /* Ajustar la imagen de fondo para cubrir toda la pantalla */
+    background-position: center; /* Posición centrada de la imagen de fondo */
+    background-repeat: no-repeat; /* Evitar que la imagen de fondo se repita */
+  }
+  
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  
+  .image-section {
+    flex-basis: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .image-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  .text-section {
+    flex-basis: 100%;
+    text-align: left;
+  }
+  
+  h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #333;
+  }
+  
+  h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #666;
+  }
+  
+  p {
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #444;
+    line-height: 1.5;
+  }
+  
