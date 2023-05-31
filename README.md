@@ -1,2 +1,1 @@
-# prioritytalk
-Priority talk - Prioridad para hablar 
+![LOGO](/images/prioritytalk.jpg)
